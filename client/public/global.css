@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('./img/fantasy-setting.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}

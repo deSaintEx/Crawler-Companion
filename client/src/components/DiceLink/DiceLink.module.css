@@ -1,0 +1,43 @@
+.link {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:
+        0 0 0 4px black, /* fake border that follows clip-path */
+        inset 4px 4px 8px rgba(255,255,255,0.2),
+        inset -4px -4px 8px rgba(0,0,0,0.3),
+        0 8px 16px rgba(0,0,0,0.4);
+    font-family: Wonderworld;
+    font-size: 1.5rem;
+    color: beige;
+    background: #4a6cf7;
+
+    background: linear-gradient(145deg, #3fbb87, #0d3323);
+    box-shadow: 
+        inset 4px 4px 8px rgba(255,255,255,0.2), 
+        inset -4px -4px 8px rgba(0,0,0,0.3), 
+        0 8px 16px rgba(0,0,0,0.4);
+
+    clip-path: polygon(50% 0%, 73% 6%, 91% 25%, 98% 50%, 91% 75%, 73% 94%, 50% 100%, 27% 94%, 9% 75%, 2% 50%, 9% 25%, 27% 6%);
+}
+
+.link.roll { 
+    animation: roll 0.6s ease-out; 
+}
+
+button.diceReset { 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    cursor: pointer; 
+}
+
+@keyframes roll { 
+    0% { transform: rotate(0deg) scale(1); } 
+    30% { transform: rotate(20deg) scale(1.1); } 
+    60% { transform: rotate(-15deg) scale(0.95); } 
+    100% { transform: rotate(0deg) scale(1); } 
+}

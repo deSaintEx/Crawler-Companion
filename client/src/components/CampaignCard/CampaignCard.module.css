@@ -1,0 +1,18 @@
+.campaign-card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campaign-name {
+    font-size: 2rem;
+}
+
+.admin-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}

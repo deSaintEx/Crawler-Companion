@@ -1,0 +1,19 @@
+.create-campaign-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    font-family: Wonderworld;
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1rem solid black;
+    border-radius: 50px;
+    background-color: rgb(111, 204, 153);
+}

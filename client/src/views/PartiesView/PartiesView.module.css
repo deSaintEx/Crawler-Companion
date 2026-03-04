@@ -1,0 +1,21 @@
+.parties-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.create-new {
+    height: 150px !important;
+    width: 150px !important;
+    font-size: 1.5rem;
+}
+
+.party-list {
+    border: 1rem solid black;
+    border-radius: 50px;
+    background-color: rgb(111, 204, 153);
+    padding: 2rem;
+}

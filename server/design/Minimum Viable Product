@@ -1,0 +1,23 @@
+***********************
+CRAWLER COMPANION (MVP)
+***********************
+
+In tabletop gaming, a dungeon "crawl" allows players to quickly jump into the action with new characters and simple
+stories for a fast and dirty adventure. This application works as a rudimentary companion for a Dungeon Master running
+multiple "Dungeons & Dragons" games at once (or any similar tabletop RPG). Connected to a database of users, characters,
+parties, plots, and campaigns (which are all freely viewable to anyone), it allows for players (users) to create
+characters and even write plots they might wish to play out, and then the DM (admin) can organize all of it by placing
+characters into parties and then blending parties and plots to create campaigns. All ideas are welcome, but the DM has
+the final say on what stays and what goes. Only the DM can edit or delete entities from the database.
+
+*** As an unauthenticated user, I can view lists of all existing characters, plots, parties, and campaigns.
+
+*** As an authenticated user, I can create new characters and plots, which are added to the existing ones.
+
+*** As an admin, I can edit/update all user details, characters, plots, parties, and campaigns. I can also assign
+    users to characters and assign characters to parties, as well as remove characters from users and parties, or delete
+    any of the above from the database. Using existing parties and plots, I can create and name a new campaign--and then
+    delete it once the game is over.
+
+In short, anyone can view the database, authenticated users can contribute characters and plots, and admins can edit all
+of it and organize all of it into templates for playable games.

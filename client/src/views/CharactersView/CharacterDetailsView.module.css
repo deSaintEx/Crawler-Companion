@@ -1,0 +1,11 @@
+.character-details-body {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1rem solid black;
+    border-radius: 50px;
+    background-color: rgb(111, 204, 153);
+}
