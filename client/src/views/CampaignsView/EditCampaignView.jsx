@@ -69,7 +69,7 @@ export default function EditCampaignView() {
             <div className={styles.editCampaignBody}> 
                 <h1>Edit Campaign</h1> 
                 
-                    <form className={styles.form} onSubmit={handleSubmit}> 
+                    <form className={`content-box ${styles.form}`} onSubmit={handleSubmit}> 
                         <label> Campaign Name <br/>
                             <input 
                                 name="campaignName" 

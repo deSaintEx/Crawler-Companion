@@ -45,17 +45,8 @@ a {
 
 .main-body {
   display: flex;
-  justify-content: center;
-}
-
-.menu {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  border: 1rem solid black;
-  border-radius: 50px;
-  background-color: rgb(111, 204, 153);
+  align-items: center;
 }
 
 .menu-item {

@@ -36,7 +36,7 @@ export default function PartyDetailsView() {
             {isLoading || !party ? (
                 <p>Loading...</p>
             ) : (
-                <div className={styles.partyDetailsBody}>
+                <div className={`content-box`}>
                     <PartyCard party={party} />
                     <h3>Characters:</h3>
                     {characters.length === 0 ? (

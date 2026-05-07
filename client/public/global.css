@@ -1,7 +1,22 @@
 body {
-    display: flex;
-    justify-content: center;
     background-image: url('./img/fantasy-setting.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
+
+.content-box {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1rem solid black;
+    border-radius: 50px;
+    background-color: rgb(111, 204, 153);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }

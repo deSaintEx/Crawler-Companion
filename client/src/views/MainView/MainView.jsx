@@ -11,10 +11,10 @@ export default function MainView() {
 
   return (
     <div className={styles.mainBody}>
-      <div>
+   
         <header>Crawler Companion</header>
       
-        <div className={styles.menu}>
+        <div className={"content-box"}>
           <NavLink className={styles.menuItem} to="/campaigns">Campaigns</NavLink>
           <NavLink className={styles.menuItem} to="/characters">Characters</NavLink>
           <NavLink className={styles.menuItem} to="/parties">Parties</NavLink>
@@ -43,7 +43,7 @@ export default function MainView() {
             title="View table"
           />
         </div> */}
-      </div>
+    
     </div>  
   );
 }

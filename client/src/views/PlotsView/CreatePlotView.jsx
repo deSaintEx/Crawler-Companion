@@ -38,7 +38,7 @@ export default function CreatePlotView() {
             <div className={styles.createPlotBody}>
                 <h1>Create New Plot</h1>
 
-                <form className={styles.form} onSubmit={handleSubmit}>
+                <form className={`content-box ${styles.form}`} onSubmit={handleSubmit}>
                     <label>
                         Plot Title <br/>
                         <input

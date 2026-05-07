@@ -36,7 +36,7 @@ export default function CharactersView() {
                 <div className={styles.charactersBody}>
                     <h1>Characters</h1>
 
-                    <div className={styles.characterList}>
+                    <div className={"content-box"}>
                         {characters.map((character) => (
                             <CharacterCard key={character.characterId} character={character} showAdminControls={false} />
                         ))}

@@ -66,7 +66,7 @@ export default function LoginView() {
       <Notification notification={notification} clearNotification={() => setNotification(null)} />
 
       <form onSubmit={handleSubmit}>
-        <div className={styles.loginForm}>
+        <div className={`content-box ${styles.loginForm}`}>
           <label htmlFor="username">Username</label>
           <input
             type="text"

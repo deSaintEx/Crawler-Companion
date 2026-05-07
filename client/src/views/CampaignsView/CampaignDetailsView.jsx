@@ -33,7 +33,7 @@ export default function CampaignDetailsView() {
             {isLoading || !campaign ? (
                 <p>Loading...</p>
             ) : (
-                <div className={styles.campaignDetailsBody}>
+                <div className={"content-box"}>
                     <CampaignCard campaign={campaign} showAdminControls={true} />
                     <p>{campaign.description}</p>
                     <h3>Party: {campaign.partyName}</h3>

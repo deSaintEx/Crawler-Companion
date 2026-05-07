@@ -39,7 +39,7 @@ export default function PartiesView() {
                 <div className={styles.partiesBody}>
                     <h1>Parties</h1>
 
-                    <div className={styles.partyList}>
+                    <div className={"content-box"}>
                         {parties.map((party) => (
                             <PartyCard key={party.partyId} party={party} />
                         ))}

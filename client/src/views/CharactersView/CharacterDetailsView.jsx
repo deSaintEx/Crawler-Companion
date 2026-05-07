@@ -33,7 +33,7 @@ export default function CharacterDetailsView() {
             {isLoading || !character ? (
                 <p>Loading...</p>
             ) : (
-                <div className={styles.characterDetailsBody}>
+                <div className={"content-box"}>
                     <CharacterCard character={character} showAdminControls={true} />
                     <p>{character.description}</p>
                     <h3>Level: {character.characterLevel}</h3>

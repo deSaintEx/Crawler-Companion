@@ -1,24 +1,11 @@
 .campaigns-body {
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    margin-left: 10vw;
-    margin-right: 10vw;
-
-}
-
-.campaign-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-    border: 1rem solid black;
-    border-radius: 50px;
-    background-color: rgb(111, 204, 153);
+    /* padding: 2rem; */
+    /* margin: 0 auto; */
 }
 
 .campaign-card {

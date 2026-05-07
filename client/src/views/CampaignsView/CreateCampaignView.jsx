@@ -40,7 +40,7 @@ export default function CreateCampaignView() {
             <div className={styles.createCampaignBody}>
                 <h1>Create New Campaign</h1>
 
-                <form className={styles.form} onSubmit={handleSubmit}>
+                <form className={`content-box ${styles.form}`} onSubmit={handleSubmit}>
                     <label>
                         Campaign Name <br/>
                         <input

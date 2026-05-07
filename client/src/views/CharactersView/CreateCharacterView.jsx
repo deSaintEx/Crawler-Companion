@@ -44,7 +44,7 @@ export default function CreateCharactersView() {
             <div className={styles.createCharacterBody}>
                 <h1>Create New Character</h1>
 
-                <form className={styles.form} onSubmit={handleSubmit}>
+                <form className={`content-box ${styles.form}`} onSubmit={handleSubmit}>
                     <label>
                         Character Name <br/>
                         <input

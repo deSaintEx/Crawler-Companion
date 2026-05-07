@@ -73,7 +73,7 @@ export default function EditCharacterView() {
             <div className={styles.editCharacterBody}> 
                 <h1>Edit Character</h1> 
                 
-                    <form className={styles.form} onSubmit={handleSubmit}> 
+                    <form className={`content-box ${styles.form}`} onSubmit={handleSubmit}> 
                         <label> Character Name <br/>
                             <input 
                                 name="characterName" 

@@ -35,7 +35,7 @@ export default function PlotsView() {
                 <div className={styles.plotsBody}>
                     <h1>Plots</h1>
                     
-                    <div className={styles.plotList}>
+                    <div className={`content-box`}>
                         {plots.map((plot) => (
                             <PlotCard key={plot.plotId} plot={plot} />
                         ))}

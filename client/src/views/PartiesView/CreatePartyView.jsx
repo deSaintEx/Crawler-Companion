@@ -55,7 +55,7 @@ export default function CreatePartyView() {
             <div className={styles.createPartyBody}>
                 <h1>Create New Party</h1>
 
-                <form className={styles.form} onSubmit={handleSubmit}>
+                <form className={`content-box ${styles.form}`} onSubmit={handleSubmit}>
                     <label>
                         Party Name <br/>
                         <input

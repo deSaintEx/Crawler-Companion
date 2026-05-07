@@ -76,7 +76,7 @@ export default function RegisterView() {
 
         <Notification notification={notification} clearNotification={() => setNotification(null)} />
 
-        <div className={styles.registerForm}>
+        <div className={`content-box ${styles.registerForm}`}>
           <label htmlFor="username">Username</label>
           <input
             type="text"

@@ -39,7 +39,7 @@ export default function CampaignsView() {
                 <div className={styles.campaignsBody}>
                     <h1>Campaigns</h1>
 
-                    <div className={styles.campaignList}>
+                    <div className={"content-box"}>
                         {campaigns.map((campaign) => (
                             <CampaignCard className={styles.campaignCard} key={campaign.campaignId} campaign={campaign} showAdminControls={false} />
                         ))}
